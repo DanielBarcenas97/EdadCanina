@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Layer-List: Es un Array de vistas o listado de capas -->
+
+    <item android:drawable="@color/color_green" />
+
+    <item
+        android:start="20dp"
+        android:end="20dp"
+        android:top="260dp"
+        android:bottom="260dp">
+
+        <bitmap android:src="@drawable/logo" />
+
+    </item>
+
+</layer-list>
